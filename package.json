@@ -1,0 +1,13 @@
+{
+  "name": "default_example",
+  "version": "1.0.0",
+  "dependencies": {
+    "express": "4.15.3",
+    "pug": "2.0.0-rc.2",
+    "stylus": "0.54.5"
+  },
+  "description": "",
+  "main": "server.js",
+  "author": "",
+  "license": "MIT"
+}

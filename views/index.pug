@@ -1,0 +1,18 @@
+doctype html
+html(lang='en')
+	include includes/head
+	include includes/loginModal
+	body
+		.ui.container
+			include includes/nav
+			#mainpagetext.ui.segment.inverted.centered
+				p Welcome to my Website.
+				p This is where you'll find my programs I'm not too ashamed of.
+				p I've currently been woring on learning Javascript, among other things.
+				p Proccessing's #[a(href='https://p5js.org/') p5.js] javascript library has been my "Meat and Potatoes" for awhile now.
+				p Your IP address is: #{client_ip}
+			.centered
+				iframe(src='https://open.spotify.com/embed/user/halosin8/playlist/3HZjk23ycCuPF85WK8dEzn', width='300', height='380', frameborder='0', allowtransparency='true')
+	footer
+		h1#foot.foot
+			script(src='js/randomtextfooter.js')

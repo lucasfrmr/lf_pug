@@ -1,0 +1,60 @@
+doctype html
+html(lang='en')
+	include includes/head
+	include includes/loginModal
+	body
+		//- .ui.sidebar.inverted.vertical.menu
+		#sidemenu.ui.simple.sidebar.inverted.vertical.menu.left
+			a(href='#').sidemenu.item.green
+				| 1
+			a(href='#').sidemenu.item.green
+				| 2
+			a(href='#').sidemenu.item.green
+				| 3
+		.pusher
+			.ui.icon.button
+				button.ui.menu.button
+					i.align.justify.icon
+			.ui.container
+				//- include includes/nav
+				//- .ui.segments
+				.ui.segment
+					h2.centered Cards
+					p
+					.ui.secondary.segment
+						.url.example 
+							.ui.embed(data-url="embedSketch?url=cards", data-placeholder="img/norm_sml_1.png")
+								script.
+									$(document).ready(function(){$('.url.example .ui.embed').embed();});.ui.segments
+				.ui.segment
+					h2.centered Perlin Noise 
+					p
+					.ui.secondary.segment
+						.url.example 
+							.ui.embed(data-url="embedSketch?url=perlinNoise", data-placeholder="img/norm_sml_1.png")
+								script.
+									$(document).ready(function(){$('.url.example .ui.embed').embed();});
+				.ui.segment
+					h2.centered Geo Star
+					p
+					.ui.secondary.segment
+						.url.example 
+							.ui.embed(data-url="embedSketch?url=sketch-geostar", data-placeholder="img/norm_sml_1.png")
+								script.
+									$(document).ready(function(){$('.url.example .ui.embed').embed();});.ui.segments
+				.ui.segment
+					h2.centered Recursive Rect 
+					p
+					.ui.secondary.segment
+						.url.example 
+							.ui.embed(data-url="embedSketch?url=recursiveRect", data-placeholder="img/norm_sml_1.png")
+								script.
+									$(document).ready(function(){$('.url.example .ui.embed').embed();});
+				.ui.segment
+					h2.centered Letter Grid 
+					p
+					.ui.secondary.segment
+						.url.example 
+							.ui.embed(data-url="embedSketch?url=letterGrid", data-placeholder="img/norm_sml_1.png")
+								script.
+									$(document).ready(function(){$('.url.example .ui.embed').embed();});

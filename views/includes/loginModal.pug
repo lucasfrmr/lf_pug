@@ -1,0 +1,24 @@
+.ui.login.modal
+	.ui.middle.aligned.center.aligned.grid
+		.column
+			h2.ui.teal.image.header
+				img(src='img/teeth_in_your_eye.png').image
+				.content
+					| Log-in to your account
+			form.ui.large.form
+				.ui.stacked.segment
+					.field
+						.ui.left.icon.input
+							i.user.icon
+							input(type='text', name='email', placeholder='E-mail address')
+					.field
+						.ui.left.icon.input
+							i.lock.icon
+							input(type='password', name='password', placeholder='Password')
+					.ui.field.large.teal.submit.button
+						| Login
+				.ui.error.message
+			.ui.message
+				| New to us? 
+				a(href='#')
+					|  Sign Up

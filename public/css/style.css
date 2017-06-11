@@ -1,0 +1,23 @@
+#mainpagetext{
+	text-align: center;
+}
+#foot{
+	text-align: center;
+	
+}
+.centered {
+	text-align: center;
+}
+.ui.secondary.pointing.menu {
+	padding-top: 5em;
+}
+/*a.item {
+	color: green;
+}*/
+body{
+  background-color: grey;
+	/*overflow:hidden;*/
+}
+#sidemenu {
+    color: white;
+}
