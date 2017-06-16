@@ -1,21 +1,21 @@
-.ui.login.modal
+#login-modal.ui.basic.modal
 	.ui.middle.aligned.center.aligned.grid
 		.column
-			h2.ui.teal.image.header
+			h2.ui.image.header
 				img(src='img/teeth_in_your_eye.png').image
 				.content
 					| Log-in to your account
-			form.ui.large.form
+			form.ui.large.form(method="post")
 				.ui.stacked.segment
 					.field
 						.ui.left.icon.input
 							i.user.icon
-							input(type='text', name='email', placeholder='E-mail address')
+							input(type='text', name='email', value="", placeholder='E-mail address')
 					.field
 						.ui.left.icon.input
 							i.lock.icon
-							input(type='password', name='password', placeholder='Password')
-					.ui.field.large.teal.submit.button
+							input(type='password', name='password', value="", placeholder='Password')
+					button.ui.field.large.submit.button(type="submit")
 						| Login
 				.ui.error.message
 			.ui.message

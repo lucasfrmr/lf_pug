@@ -1,0 +1,26 @@
+table#table_id.ui.display
+	thead
+		tr
+			th Tank
+			th Product
+			th PPG@60F
+			th HFR
+			th TT Spots
+			th TC Spots
+			th Docks
+			th Tag Color
+			th Freezing Point
+			th Discharge Temp
+			th PAT
+			th MSDS
+	tbody
+		//- tr
+		//- 	td Row 1 Data 1
+		//- 	td Row 1 Data 2
+		//- tr
+		//- 	td Row 2 Data 1
+		//- 	td Row 2 Data 2
+	script.
+		$(document).ready( function () {
+			$('#table_id').DataTable();
+		} );

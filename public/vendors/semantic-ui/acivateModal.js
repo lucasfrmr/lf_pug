@@ -1,5 +1,5 @@
 $(document).ready(function(){
   $('.privacy.icon').click(function(){
-  	$('.ui.login.modal').modal('show');
+  	$('.ui.basic.modal').modal('show');
   });
 });

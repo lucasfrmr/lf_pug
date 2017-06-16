@@ -41,6 +41,14 @@ app.get('/embedSketch', function(req, res){
 	});
 });
 
+app.get('/work', function(req, res){
+	res.render('work.pug', { 
+		title: 'Work',
+		client_ip: req.headers['x-forwarded-for'],
+		url: req.param('url')
+	});
+});
+
 app.listen(app.get('port'), function() {
 	console.log('Express started on http://localhost:' + app.get('port') + '; press Ctrl-C to terminate.');
 });

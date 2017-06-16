@@ -1,0 +1,46 @@
+body {
+  background-color: #1b1c1d;
+  min-width: 360px;
+  min-height: 460px;
+}
+body > .grid {
+  height: 100%;
+}
+.column {
+  max-width: 328px;
+}
+.form {
+  padding: 14px 16px 16px 16px;
+}
+.loginbox {
+  position: relative;
+  width: 300px;
+  height: 173.21px;
+  background-color: #3c3b3b;
+  margin: 86.6px 0;
+  box-shadow: 0 0 20px rgba(0,0,0,0.6);
+  border-left: solid 10px #5f6367;
+  border-right: solid 10px #5f6367;
+}
+input {
+  background-color: #706f6f !important;
+  color: #fff !important;
+  border: solid 3px #cfcccc !important;
+  transition: border 0.3s !important;
+  padding: 8px !important;
+}
+input:focus {
+  border: solid 3px #9e9c9c !important;
+  outline: none;
+}
+.menu a.item {
+  margin-left: 12px;
+}
+@-moz-document url-prefix() {
+  .field {
+    margin-bottom: 9.5px !important;
+  }
+  input {
+    padding: 7.5px !important;
+  }
+}

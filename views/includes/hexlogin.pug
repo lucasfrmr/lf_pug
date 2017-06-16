@@ -1,0 +1,13 @@
+#login-modal.ui.tiny.modal
+	.ui.middle.aligned.center.aligned.grid
+		.column
+			form.ui.form.loginbox(method="post")
+				.field
+					.ui.left.icon.input
+						i.user.icon
+						input(type="email" name="email" placeholder="Email")
+				.field
+					.ui.left.icon.input
+						i.lock.icon
+						input(type="password" name="password" placeholder="Password")
+				button.ui.fluid.large.inverted.basic.button(type="submit") Login
